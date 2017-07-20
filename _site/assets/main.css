@@ -66,6 +66,13 @@ body {
   line-height: 1.5;
 }
 
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: #F3F2F0;
+}
+
 .font-red {
   color: #C74848;
 }
