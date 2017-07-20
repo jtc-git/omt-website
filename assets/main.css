@@ -289,6 +289,8 @@ h2 {
   .video-container iframe {
     width: 90vw;
     height: 75vw;
+    display: block;
+    margin-left: 5vw;
   }
 
   .about-container {
