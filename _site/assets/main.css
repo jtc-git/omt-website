@@ -158,6 +158,8 @@ h2 {
 .video-container iframe {
   width: 75vw;
   height: 40vw;
+  margin: auto;
+  display: block;
 }
 
 /* ALBUM STYLES */
