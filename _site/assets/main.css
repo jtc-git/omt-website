@@ -182,7 +182,7 @@ h2 {
   list-style-position: inside;
 }
 
-.purchase-button {
+.buy-link {
   display: block;
   background: #C74848;
   width: 200px;
@@ -190,7 +190,7 @@ h2 {
   margin-top: 1em;
   padding: 0.75em;
   border: 2px solid #F3F2F0;
-  box-sizing: border-box;
+  
   font-family: 'Montserrat-Black'
 }
 
