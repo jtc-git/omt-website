@@ -276,6 +276,13 @@ h2 {
     text-transform: uppercase;
     font-family: 'Montserrat-Black';
   }
+
+  .video-container iframe {
+    width: 90vw;
+    height: 75vw;
+    display: block;
+    margin: 0vw 5vw 0vw 5vw;
+  }
 }
 
 @media (max-width: 800px) {
@@ -290,7 +297,7 @@ h2 {
     width: 90vw;
     height: 75vw;
     display: block;
-    margin-left: 5vw;
+    margin: 0vw 5vw 0vw 5vw;
   }
 
   .about-container {
