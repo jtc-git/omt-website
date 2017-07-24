@@ -66,6 +66,13 @@ body {
   line-height: 1.5;
 }
 
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: #F3F2F0;
+}
+
 .font-red {
   color: #C74848;
 }
@@ -151,6 +158,8 @@ h2 {
 .video-container iframe {
   width: 75vw;
   height: 40vw;
+  margin: auto;
+  display: block;
 }
 
 /* ALBUM STYLES */
@@ -182,7 +191,7 @@ h2 {
   list-style-position: inside;
 }
 
-.purchase-button {
+.buy-link {
   display: block;
   background: #C74848;
   width: 200px;
@@ -190,7 +199,7 @@ h2 {
   margin-top: 1em;
   padding: 0.75em;
   border: 2px solid #F3F2F0;
-  box-sizing: border-box;
+  
   font-family: 'Montserrat-Black'
 }
 
@@ -267,6 +276,13 @@ h2 {
     text-transform: uppercase;
     font-family: 'Montserrat-Black';
   }
+
+  .video-container iframe {
+    width: 90vw;
+    height: 75vw;
+    display: block;
+    margin: 0vw 5vw 0vw 5vw;
+  }
 }
 
 @media (max-width: 800px) {
@@ -280,6 +296,8 @@ h2 {
   .video-container iframe {
     width: 90vw;
     height: 75vw;
+    display: block;
+    margin: 0vw 5vw 0vw 5vw;
   }
 
   .about-container {
